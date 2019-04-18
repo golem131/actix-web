@@ -53,7 +53,7 @@ use std::rc::Rc;
 use actix_service::{Service, Transform};
 use futures::future::{ok, Either, FutureResult};
 use futures::{Future, IntoFuture, Poll};
-use time::Duration;
+use chrono::Duration;
 
 use crate::cookie::{Cookie, CookieJar, Key, SameSite};
 use crate::error::{Error, Result};
